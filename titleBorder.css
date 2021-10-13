@@ -1,0 +1,35 @@
+
+.title-fz {
+  font-size: 32px;
+  color: #2a593e;
+}
+
+.titleBorder {
+  width: 90%;
+  border-bottom: 2px solid #2a593e;
+  position: relative;
+  margin: 0 auto;
+}
+
+.res-title {
+  position: absolute;
+  top: -17px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  padding: 0px 17px;
+  letter-spacing:3px;
+  text-indent:3px;
+}
+
+/* 手機板 */
+@media (max-width: 576px) {
+  .res-title {
+    top: -13px;
+
+    padding: 0px 10px;
+  }
+  .title-fz {
+    font-size: 24px;
+  }
+}
