@@ -1,3 +1,7 @@
+/* html */
+/* <div class="titleBorder">
+     <h4 className=" res-title title-fz ">健康餐盒</h4>
+ </div> */
 
 .title-fz {
   font-size: 32px;
@@ -5,7 +9,7 @@
 }
 
 .titleBorder {
-  width: 90%;
+  width: 100%;
   border-bottom: 2px solid #2a593e;
   position: relative;
   margin: 0 auto;
